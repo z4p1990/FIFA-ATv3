@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1">
+  <assemblyIdentity version="1.0.0.0" name="MyApplication.app" />
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
+    <security>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Opções de Manifesto UAC
+ Se você deseja alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó requestedExecutionLevel 
+ por um dos seguintes.
+
+<requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+ Especificar o elemento requestedExecutionLevel desabilitará a virtualização de arquivos e Registro. 
+ Remova esse elemento se seu aplicativo requer essa virtualização para compatibilidade
+            com versões anteriores.
+        -->
+        <requestedExecutionLevel level="highestAvailable" uiAccess="false" />
+      </requestedPrivileges>
+      <applicationRequestMinimum>
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+        <PermissionSet class="System.Security.PermissionSet" version="1" ID="Custom" SameSite="site" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+    </application>
+  </compatibility>
+</assembly>
