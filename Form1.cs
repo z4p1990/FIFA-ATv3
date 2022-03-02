@@ -46,7 +46,7 @@ namespace FIFA_Anti_Trainer
         public void Tm3()
         {
             _tm3 = new Timer();
-            _tm3.Interval = 480000;
+            _tm3.Interval = 480002;
             _tm3.Tick += timer3_Tick;
             _tm3.Start();
         }
